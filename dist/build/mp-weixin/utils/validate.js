@@ -1,0 +1,1 @@
+"use strict";const t=require("../common/vendor.js");exports.required=function(t){return(t=>null==t||""===String(t).trim())(t)?"该项为必填":""},exports.validate=function(e,n){let o=!0;return Object.keys(n).forEach(r=>{const i=e[r],s=n[r]||[];for(const e of s){const n=e(i);if(n){o=!1,t.index.showToast({title:n,icon:"none"});break}}}),o};

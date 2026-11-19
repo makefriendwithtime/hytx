@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/index",
+    "pages/order/index",
+    "pages/driver/index",
+    "pages/mine/index"
+  ],
+  "subPackages": [
+    {
+      "root": "pages-sub",
+      "pages": [
+        "order-detail/index",
+        "order-create/index"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "运输管理系统",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F5F6FA"
+  },
+  "tabBar": {
+    "color": "#8A8F99",
+    "selectedColor": "#1F6FEB",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/order/index",
+        "text": "运单",
+        "iconPath": "static/tabbar/order.png",
+        "selectedIconPath": "static/tabbar/order-active.png"
+      },
+      {
+        "pagePath": "pages/driver/index",
+        "text": "司机",
+        "iconPath": "static/tabbar/driver.png",
+        "selectedIconPath": "static/tabbar/driver-active.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "static/tabbar/mine.png",
+        "selectedIconPath": "static/tabbar/mine-active.png"
+      }
+    ]
+  },
+  "preloadRule": {
+    "pages/index/index": {
+      "network": "all",
+      "packages": [
+        "pages-sub"
+      ]
+    }
+  },
+  "darkmode": false,
+  "usingComponents": {}
+}

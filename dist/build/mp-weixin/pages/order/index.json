@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "运单",
+  "usingComponents": {
+    "empty-state": "../../components/EmptyState/EmptyState"
+  }
+}

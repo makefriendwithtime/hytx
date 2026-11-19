@@ -1,0 +1,1 @@
+import{x as r}from"./index-BTktxxyT.js";function n(n){r({title:n,icon:"none",duration:2e3});const t=new Error(n);return t.handled=!0,Promise.reject(t)}function t(r){const n=r&&r.data||r||{};return Array.isArray(n)?n:n.list||[]}export{t as p,n as r};

@@ -1,0 +1,1 @@
+import{x as t}from"./index-BTktxxyT.js";const n=/^1[3-9]\d{9}$/,r=t=>n.test(String(t||"").trim());function o(t){return(t=>null==t||""===String(t).trim())(t)?"该项为必填":""}function i(n,r){let o=!0;return Object.keys(r).forEach(i=>{const e=n[i],s=r[i]||[];for(const n of s){const r=n(e);if(r){o=!1,t({title:r,icon:"none"});break}}}),o}export{r as i,o as r,i as v};

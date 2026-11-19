@@ -1,0 +1,2 @@
+page{background-color:$transport-bg-page;color:$transport-text-primary;font-size:28rpx;font-family:-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Segoe UI,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif}view,text,button,input,textarea{box-sizing:border-box}
+page{--status-bar-height:25px;--top-window-height:0px;--window-top:0px;--window-bottom:0px;--window-left:0px;--window-right:0px;--window-magin:0px}[data-c-h="true"]{display: none !important;}

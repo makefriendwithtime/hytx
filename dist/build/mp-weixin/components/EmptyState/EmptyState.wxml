@@ -1,0 +1,1 @@
+<view class="empty-state data-v-5ad59ffd"><text class="empty-state__icon data-v-5ad59ffd">{{a}}</text><text class="empty-state__text data-v-5ad59ffd">{{b}}</text><text wx:if="{{c}}" class="empty-state__desc data-v-5ad59ffd">{{d}}</text><button wx:if="{{e}}" class="empty-state__action data-v-5ad59ffd" bindtap="{{g}}">{{f}}</button></view>

@@ -1,0 +1,1 @@
+"use strict";const e=require("../request.js");exports.createOrder=t=>e.http.post("/order/create",t),exports.getOrderDetail=t=>e.http.get(`/order/detail/${t}`),exports.getOrderList=t=>e.http.get("/order/list",t);

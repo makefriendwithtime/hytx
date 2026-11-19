@@ -1,0 +1,1 @@
+"use strict";const e=require("../common/vendor.js");exports.backendRequest=function(t){const{url:a,method:s="GET",data:d={},header:r={},timeout:o=15e3}=t;return new Promise((t,u)=>{e.index.request({url:a,method:s,data:d,header:r,timeout:o,success:e=>{t({statusCode:e.statusCode,data:e.data,header:e.header})},fail:e=>{u(e)}})})};

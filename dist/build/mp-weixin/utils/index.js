@@ -1,0 +1,1 @@
+"use strict";const e=require("../common/vendor.js");exports.navigate=function(i){["/pages/index/index","/pages/order/index","/pages/driver/index","/pages/mine/index"].includes(i)?e.index.switchTab({url:i}):e.index.navigateTo({url:i})};

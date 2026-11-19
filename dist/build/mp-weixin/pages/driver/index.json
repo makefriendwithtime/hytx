@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "司机",
+  "usingComponents": {
+    "empty-state": "../../components/EmptyState/EmptyState"
+  }
+}
